@@ -29,8 +29,6 @@ makeCacheMatrix <- function(x = matrix()) {
        list(setmat = setmat, getmat = getmat,
             setInv = setInv, getInv = getInv)
 }
-        
-
 ## The cacheSolve function takes a matrix that was made with makeCacheMatrix or not.
 ## It sifts through the cache data made from makeCacheMatrix and prints out the 
 ## value of the matrix from the cache if it is present (along with a message).
